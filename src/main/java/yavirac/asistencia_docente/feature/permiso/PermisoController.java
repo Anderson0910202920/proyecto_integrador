@@ -28,7 +28,7 @@ public class PermisoController {
     public Permiso save(@RequestBody Permiso permiso) {
         return permisoService.save(permiso);
     }
-    @GetMapping("/{id}")
+    @GetMapping("findById/{id}")
     public Permiso findById(@PathVariable long id){
         return permisoService.findById(id);
     }
