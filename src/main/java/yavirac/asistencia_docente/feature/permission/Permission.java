@@ -39,3 +39,5 @@ public class Permission {
     @MappedCollection(idColumn = "permission_id")
     private Set<PermissionComment> comments = new HashSet<>();
 }
+
+/* <3 TE AMO */
